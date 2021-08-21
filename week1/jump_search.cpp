@@ -27,6 +27,7 @@ int main()
 		{
 			cout<<arr[i]<<" ";
 		}
+		cout<<endl;
 		int s=0,e=sqrt(n);
 		while(arr[e]<=k)
 		{
@@ -47,11 +48,11 @@ int main()
 				f=1;
 				break;
 			}
-			if(f==0)
+	    }
+	    if(f==0)
 			{
 				printf("NOT FOUND!\n");
 			}
-	    }
 	}
 	return 0;
 }

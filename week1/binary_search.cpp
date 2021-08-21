@@ -22,8 +22,9 @@ int main() {
 	    sort(arr,arr+n);
 	     for(i=0;i<n;i++)
 	    {
-	        cout<<arr[i]<<" "<<endl;
+	        cout<<arr[i]<<" ";
 	    }
+	    cout<<endl;
 	    cout<<"Enter the element to search :-";
 	    cin>>a;
 	    s=0;
